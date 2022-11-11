@@ -6,7 +6,7 @@
   <footer>
     <hr />
     <div class="space">Created by <a href="https://gerardlucas.com/" target="_blank" rel="noopener">Gerard Lucas</a> for IT1600-01 @ The University of Missouri-Columbia</div>
-    <div>Images under Pixabay license and require no attribution. View this project on <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></div>
+    <div>Images under Pixabay license and require no attribution. View this project on <a href="https://github.com/gerardl/raster-vector" target="_blank" rel="noopener">GitHub</a></div>
   </footer>
 </template>
 

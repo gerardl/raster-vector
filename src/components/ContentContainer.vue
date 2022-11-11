@@ -30,11 +30,11 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     <div class="extensions">
       Some of the most common raster file formats include:
       <ul>
-        <li><span class="file-type">JPEG</span> - Joint Photographic Experts Group (web-friendly format that provides small file sizes at the cost of some fidelity)</li>
-        <li><span class="file-type">PNG</span> - Portable Network Graphics (popular web format that supports transparent backgrounds, 1:1 reproduction of images, and a wide color palette)</li>
-        <li><span class="file-type">BMP</span> - Bitmap Image File (an older, but still widly supported, format that supports compressed or uncompressed images)</li>
-        <li><span class="file-type">GIF</span> - Graphics Interchange Format (popular web format that supports multiple frames leading to basic animations)</li>
-        <li><span class="file-type">PSD</span> - Adobe Photoshop files (industry standard tool for editing raster graphics)</li>
+        <li><span class="accent-text">JPEG</span> - Joint Photographic Experts Group (web-friendly format that provides small file sizes at the cost of some fidelity)</li>
+        <li><span class="accent-text">PNG</span> - Portable Network Graphics (popular web format that supports transparent backgrounds, 1:1 reproduction of images, and a wide color palette)</li>
+        <li><span class="accent-text">BMP</span> - Bitmap Image File (an older, but still widly supported, format that supports compressed or uncompressed images)</li>
+        <li><span class="accent-text">GIF</span> - Graphics Interchange Format (popular web format that supports multiple frames leading to basic animations)</li>
+        <li><span class="accent-text">PSD</span> - Adobe Photoshop files (industry standard tool for editing raster graphics)</li>
       </ul>
     </div>
   </ContentBlock>
@@ -53,10 +53,10 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     <div class="extensions">
       Some of the most common vector file formats include:
       <ul>
-        <li><span class="file-type">SVG</span> - Scalable Vector Graphics (web-friendly vector format)</li>
-        <li><span class="file-type">DXF</span> - Drawing Exchange Format (used by engineers and architects for blueprinting and designs)</li>
-        <li><span class="file-type">STL</span> - Standard Triangle Language (mainly for 3d modeling and 3d printing)</li>
-        <li><span class="file-type">AI</span> - Adobe Illustrator vector files (a tool for editing vector graphics)</li>
+        <li><span class="accent-text">SVG</span> - Scalable Vector Graphics (web-friendly vector format)</li>
+        <li><span class="accent-text">DXF</span> - Drawing Exchange Format (used by engineers and architects for blueprinting and designs)</li>
+        <li><span class="accent-text">STL</span> - Standard Triangle Language (mainly for 3d modeling and 3d printing)</li>
+        <li><span class="accent-text">AI</span> - Adobe Illustrator vector files (a tool for editing vector graphics)</li>
       </ul>
     </div>
 
@@ -76,19 +76,19 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     <div class="extensions">
       Raster Uses
       <ul>
-        <li><span class="file-type">Photography</span> - Digital cameras typically save their photos as raster images. The pixel format of raster graphics allows for incredible detail and color that a vector file cannot match.</li>
-        <li><span class="file-type">Digital Image Editing</span> - Programs like Photoshop work with raster files. Raster files support per-pixel editing allowing for extreme customization and detail.</li>
-        <li><span class="file-type">Scanning</span> - Files scanned from a copier will be in raster format. A scanner will shine a light on an image and collect the reflection using mirrors and sensors in a process not all that different from the principles of a digital camera.</li>
+        <li><span class="accent-text">Photography</span> - Digital cameras typically save their photos as raster images. The pixel format of raster graphics allows for incredible detail and color that a vector file cannot match.</li>
+        <li><span class="accent-text">Digital Image Editing</span> - Programs like Photoshop work with raster files. Raster files support per-pixel editing allowing for extreme customization and detail.</li>
+        <li><span class="accent-text">Scanning</span> - Files scanned from a copier will be in raster format. A scanner will shine a light on an image and collect the reflection using mirrors and sensors in a process not all that different from the principles of a digital camera.</li>
       </ul>
     </div>
 
     <div class="extensions">
       Vector Uses
       <ul>
-        <li><span class="file-type">Logos</span> - Logos need to be resized often and are typically made up of simple geometric shapes. They are perfect for the vector format.</li>
-        <li><span class="file-type">Clothing Design</span> - Pixels are sometimes very difficult to reproduce on clothing, and the lack of resizing is problematic. Vectors are preferred here.</li>
-        <li><span class="file-type">2D/3D Animation</span> - At a very simplified level, graphics cards render images through the processing of vectors. Animation tools work with vectors.</li>
-        <li><span class="file-type">Architecture Design</span> - blueprints are made up of a series of geometric shapes, so the vector format is clearly the tool for this field. Computer design programs work in vectors.</li>
+        <li><span class="accent-text">Logos</span> - Logos need to be resized often and are typically made up of simple geometric shapes. They are perfect for the vector format.</li>
+        <li><span class="accent-text">Clothing Design</span> - Pixels are sometimes very difficult to reproduce on clothing, and the lack of resizing is problematic. Vectors are preferred here.</li>
+        <li><span class="accent-text">2D/3D Animation</span> - At a very simplified level, graphics cards render images through the processing of vectors. Animation tools work with vectors.</li>
+        <li><span class="accent-text">Architecture Design</span> - blueprints are made up of a series of geometric shapes, so the vector format is clearly the tool for this field. Computer design programs work in vectors.</li>
       </ul>
     </div>
 
@@ -101,11 +101,11 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     </template>
     <template #heading>A Visual Representation</template>
 
-    The first image is a <span class="file-type">raster image</span>. Notice how detailed the photo is and how there are so many diverse lights, colors, surfaces, and blends. Watch as the photo grows; as it extends
+    The first image is a <span class="accent-text">raster image</span>. Notice how detailed the photo is and how there are so many diverse lights, colors, surfaces, and blends. Watch as the photo grows; as it extends
     past the initial file size, the image will become more and more distorted to the point where you can see the individual pixels.
 
     <div class="space">
-      The second image is a <span class="file-type">vector image</span>. Notice how the photo is much less detailed--it is only simplistic shapes, but watch as it grows. The image will retain perfect quality
+      The second image is a <span class="accent-text">vector image</span>. Notice how the photo is much less detailed--it is only simplistic shapes, but watch as it grows. The image will retain perfect quality
       as it sizes up well beyond the dimensions of the raster image.
     </div>
 
@@ -125,7 +125,7 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     margin-top: 15px;
   }
 
-  .file-type {
+  .accent-text {
     color: var(--color-heading);
   }
 </style>
